@@ -1,15 +1,27 @@
 %! Author = Hasan Nahiyan Nobel
 
 % Preamble
-\documentclass{article}
+\documentclass[11pt, a4paper]{article}
+\title{There's a Blue Light}
+\author{Hasan Nahiyan Nobel}
+\date{October 2024}
 
 % Packages
-%\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{images/}}
 
 % Document
 \begin{document}
+    % So, we have to "make" the title.
+    \maketitle
 
-    First document.
-    This is a simple example, with no extra parameters or packages included.
+    This is just some text.\par
+    And here is an image:
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.75\textwidth]{latex_project_logo}
+        \caption{The Latex Project Logo}
+        \label{fig:latex_project_logo}
+    \end{figure}
 
 \end{document}
