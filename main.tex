@@ -12,10 +12,17 @@
 
 % Document
 \begin{document}
-    % So, we have to "make" the title.
+    % Show the title
     \maketitle
+    % Show the TOC
+    \tableofcontents
 
-    This is just some text.\par
+
+    \section{Introduction}\label{sec:introduction}
+    This is just some normal text.
+
+
+    \section{Images}\label{sec:images}
     And here is an image:
     \begin{figure}[h]
         \centering
@@ -23,5 +30,50 @@
         \caption{The Latex Project Logo}
         \label{fig:latex_project_logo}
     \end{figure}
+
+
+    \section{Lists}\label{sec:lists}
+    This is an unordered list:
+    \begin{itemize}
+        \item The individual entries are indicated with a black dot, a so-called bullet.
+        \item The text in the entries may be of any length.
+    \end{itemize}
+    And this list is ordered:
+    \begin{enumerate}
+        \item This is the first entry in our list.
+        \item The list numbers increase with each entry we add.
+    \end{enumerate}
+
+
+    \section{Math}\label{sec:math}
+    About math, say, $E = mc^2$ is an inline math.
+    And the following is called ‘display math’ mode:
+    \begin{equation}
+        E=mc^2
+        \label{eq:equation_1}
+    \end{equation}
+
+
+    \section{Table}\label{sec:table}
+    This should be a basic table:
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{| c | c | c | c|}
+            \hline
+            Col1 & Col2 & Col2  & Col3 \\
+            \hline
+            1    & 6    & 87837 & 787  \\
+            \hline
+            2    & 7    & 78    & 5415 \\
+            \hline
+            3    & 545  & 778   & 7507 \\
+            \hline
+            4    & 545  & 18744 & 7560 \\
+            \hline
+            5    & 88   & 788   & 6344 \\
+            \hline
+        \end{tabular}
+        \label{tab:table}
+    \end{table}
 
 \end{document}

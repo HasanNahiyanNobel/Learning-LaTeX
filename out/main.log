@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.6)  14 OCT 2024 22:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.6)  15 OCT 2024 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -113,42 +113,54 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 16.
+ (/Users/nobel/Projects/Learning-LaTeX/out/main.toc)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
 <images/latex_project_logo.png, id=1, 1004.0712pt x 381.1038pt>
 File: images/latex_project_logo.png Graphic file (type png)
 <use images/latex_project_logo.png>
-Package pdftex.def Info: images/latex_project_logo.png  used on input line 22.
+Package pdftex.def Info: images/latex_project_logo.png  used on input line 29.
 (pdftex.def)             Requested size: 270.0pt x 102.4807pt.
- [1
+
+[1
 
 {/opt/homebrew/Cellar/texlive/20240312_2/share/texmf-dist/fonts/map/pdftex/updm
 ap/pdftex.map} <./images/latex_project_logo.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 49.
+ [2{/opt/homebrew/Cellar/texlive/20240312_2/share/texmf-dist/fonts/enc/dvips/cm
+-super/cm-super-ts1.enc}]
 (/Users/nobel/Projects/Learning-LaTeX/out/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 1305 strings out of 474116
- 22574 string characters out of 5732613
- 1927187 words of memory out of 5000000
- 23703 multiletter control sequences out of 15000+600000
- 561404 words of font info for 47 fonts, out of 8000000 for 9000
+ 1338 strings out of 474116
+ 23196 string characters out of 5732613
+ 1932187 words of memory out of 5000000
+ 23729 multiletter control sequences out of 15000+600000
+ 563274 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,205b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,9n,65p,205b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20240312_2/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20240312_2/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/2024031
-2_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on /Users/nobel/Projects/Learning-LaTeX/out/main.pdf (1 page, 17
-7597 bytes).
+amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20240312_2/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20240
+312_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/homebrew
+/Cellar/texlive/20240312_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></opt/homebrew/Cellar/texlive/20240312_2/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20240312_2/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/homebrew/Cellar/texlive/202
+40312_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew
+/Cellar/texlive/20240312_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm109
+5.pfb>
+Output written on /Users/nobel/Projects/Learning-LaTeX/out/main.pdf (2 pages, 2
+35483 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
